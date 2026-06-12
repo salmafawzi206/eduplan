@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f7f6; /* لون خلفية هادئ للموقع */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl; /* لترتيب الكلام من اليمين لليسار لأنه عربي */
+    padding: 30px;
+}
+
+h1, h2 {
+    color: #2c3e50; /* لون كحلي غامق للعناوين */
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #7f8c8d; /* لون رمادي للنص الفرعي */
+}
+
+table {
+    margin: 20px auto; /* لتوسيط الجدول في منتصف الشاشة */
+    border-collapse: collapse; /* جعل حدود الجدول أنيقة وبخط واحد */
+    width: 80%;
+    background-color: #ffffff; /* خلفية الجدول بيضاء */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #dddddd; /* لون حدود الجدول */
+}
+
+th {
+    background-color: #3498db; /* لون أزرق جميل لخانة (اليوم، المادة، الوقت) */
+    color: white; /* لون خط العناوين داخل الجدول أبيض */
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* تلوين سطر وسطر بلون خفيف جداً ليصبح شكل الجدول احترافي */
+}
